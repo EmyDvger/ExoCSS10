@@ -1,9 +1,9 @@
-#img { /*Concerne les grands écrans*/
+#img { /*Concerne les grands écrans : image fait 50% de la taille de ma page*/
   width: 50%;
   /* background-color: blue; */
 }
-/* concerne les écrans moyen */
-@media screen and (max-width: 1024px) {
+/* concerne les écrans moyen (tablette)*/
+@media screen and (max-width: 992px) {
   body {
     /* background-color: red; */
 }
@@ -11,7 +11,7 @@
     width: 75%;
 }
 /* concerne les petits écrans*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
   body {
     /* background-color: green; */
 }
